@@ -1,16 +1,16 @@
 # mlflow-server
 
 This docker file will get the lastest ubuntu image, install all the pre-requisites and run the mlflow server
+
 ## Building the Docker image
 
->
-```Bas
->
-docker build .```
->
-> Make sure you're executing the above command within the same directory as thedockerfile
->
-When completed, look for the image id (i bold)
+```Bash
+docker build .
+```
+
+Make sure you're executing the above command within the same directory as thedockerfile
+
+When completed, look for the image id (in bold)
 
 >Step 11/11 : CMD ["mlflow", "server", "--default-artifact-root", "wasbs://mlflow@benleroux.blob.core.windows.net/", "--host", "0.0.0.0"]
 >
