@@ -21,5 +21,4 @@ RUN chmod +x Miniconda3-latest-Linux-x86_64.sh && \
 EXPOSE 5000
 
 # Run app.py when the container launches
-CMD ["mlflow", "server", "--default-artifact-root", "wasbs://mlflow@benleroux.blob.core.windows.net/", "--host", "0.0.0.0"] 
-#mlflow server --default-artifact-root wasbs://mlflow@benleroux.blob.core.windows.net/ --host 0.0.0.0
+CMD ["mlflow", "server", "--default-artifact-root", "wasbs://mlflow@<AZURE BLOB NAME>.blob.core.windows.net/", "--host", "0.0.0.0"] 
