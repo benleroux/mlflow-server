@@ -28,7 +28,7 @@ recommended to double check and reset permissions for sensitive files and direct
 ## Running the Docker image
 
 ```Bash
-docker run --name mlflow -h mlflow -i -t -p 5000:5000 --rm **c928e2fdf147**
+docker run --name mlflow -h mlflow -i -t -p 5000:5000 --rm c928e2fdf147
 ```
 
 The following options were used:
