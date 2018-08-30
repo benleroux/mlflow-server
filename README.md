@@ -13,12 +13,17 @@ docker build .
 When completed, look for the image id (in bold)
 
 >Step 11/11 : CMD ["mlflow", "server", "--default-artifact-root", "wasbs://mlflow@benleroux.blob.core.windows.net/", "--host", "0.0.0.0"]
+
 > ---> Running in 4cd4d56654d9
+
 >Removing intermediate container 4cd4d56654d9
+
 > ---> c928e2fdf147
+
 >Successfully built **c928e2fdf147**
->SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to >build context will have '-rwxr-xr-x' permissions. It is
->recommended to double check and reset permissions for sensitive files and directories.
+
+>SECURITY WARNING: You are building a Docker image from Windows against a non-Windows Docker host. All files and directories added to build context will have '-rwxr-xr-x' permissions. It is
+recommended to double check and reset permissions for sensitive files and directories.
 
 ## Running the Docker image
 
